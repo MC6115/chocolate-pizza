@@ -102,7 +102,7 @@ main>section:first-child{
     position: relative;
     margin-top: 40px;
 }
-.paper{
+.list>div{
     position: absolute;
     z-index: -10;
     width: 100%;
@@ -170,5 +170,3 @@ button{
 footer>section>div{
     display: flex;
 }
-
-
