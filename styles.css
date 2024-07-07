@@ -94,15 +94,19 @@ main>section:first-child{
     margin-top: 30px;
     width: 100%;
 }
+.paperContainer{
+    position: absolute;
+    width: 100%;
+}
 .list{
+    position: relative;
     margin-top: 40px;
-    margin-bottom: 20px;
 }
 .paper{
     position: absolute;
     z-index: -10;
-    width: 70%;
-    height: 33%;
+    width: 100%;
+    height: auto;
     background-size: cover;
 }
 ul{
@@ -114,7 +118,7 @@ ul{
     padding-top: 20px;
     font-weight: 400;
     color: gray;
-    font-size: x-large;
+    font-size: large;
     margin-bottom: 90px;
 }
 li{
@@ -131,6 +135,7 @@ footer{
     width: 70%;
     margin-inline: auto;
     margin-bottom: 50px;
+    margin-top: 150px;
 }
 footer>div{
     display: flex;
